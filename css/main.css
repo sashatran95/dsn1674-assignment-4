@@ -1,0 +1,114 @@
+html {
+	background-color: #DBEEFF;
+}
+
+h1 {
+	font-weight: heavy;
+	font-size: 3rem;
+	font-style: normal;
+	text-decoration: underline;
+	font-family: 'Roboto', sans-serif;
+	color: #1A4E81
+}
+
+h2 {
+	font-weight: medium;
+	font-size: 1.5rem;
+	font-style: normal;
+	text-decoration: underline;
+	font-family: 'Roboto', sans-serif;
+	color: #1A4E81
+}
+
+h3 {
+	font-weight: medium;
+	font-size: 1.3rem;
+	font-style: normal;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	color: #1A4E81
+}
+
+p {
+	font-decoration: none;
+	font-family: arial;
+	font-size: 0.9rem;
+}
+
+blockquote {
+	font-size: 1.5rem;
+
+}
+
+footer {
+	font-size: 1rem;
+
+}
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+ol, dl {
+	list-style-type: lower-roman;
+	font-family: arial;
+	font-size: 0.9rem;
+	font-weight: lighter;
+}
+
+dt {
+	list-style-type: lower-roman;
+	font-family: arial;
+	font-size: 0.9rem;
+	font-weight: bold;
+}
+
+li {
+	font-weight: bold;
+}
+
+figurecaption {
+	font-style: italic;
+	font-family: arial;
+	font-size: 0.8rem;
+	color: #2E8AE6;
+
+}
+ul2 {
+	list-style-type: circle;
+	font-family: arial;
+	font-size: 0.9rem;
+
+}
+.indeedfoot {
+	padding-left: 2;
+	font-weight: normal;
+
+}
+.celest, .round { 
+	color: #2E8AE6;
+}
+
+.cite { 
+	color: #2E8AE6;
+	font-size: 0.8rem;
+	text-align: right;
+}
+.leftquote, .rightquote {
+	color: #2E8AE6;
+	font-size: 3rem;
+}
+.phrase {
+	font-family: 'Roboto', sans-serif;
+	color: #1A4E81;
+	font-size: 1rem;
+	font-weight: bold;
+	font-style: italic;
+}
+a {
+	color: #2E8AE6;
+}
+
+a:hover {
+	color: 	#B2CCFF;
+}
