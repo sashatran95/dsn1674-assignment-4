@@ -6,9 +6,14 @@ h1 {
 	font-weight: heavy;
 	font-size: 3rem;
 	font-style: normal;
+	text-align: center;
 	text-decoration: underline;
-	font-family: 'Roboto', sans-serif;
-	color: #1A4E81
+	font-family: 'PT Sans Caption', sans-serif;
+	color: white;
+	/*Boxes*/
+	background-color: #1A4E81;
+	padding: 1em 2em 0.5em 3em; /* rem for indenting and em for padding sizes*/
+	margin: 0;
 }
 
 h2 {
@@ -16,7 +21,7 @@ h2 {
 	font-size: 1.5rem;
 	font-style: normal;
 	text-decoration: underline;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'PT Sans Caption', sans-serif;
 	color: #1A4E81
 }
 
@@ -25,7 +30,7 @@ h3 {
 	font-size: 1.3rem;
 	font-style: normal;
 	text-decoration: none;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'PT Sans Caption', sans-serif;
 	color: #1A4E81
 }
 
@@ -97,9 +102,10 @@ ul2 {
 .leftquote, .rightquote {
 	color: #2E8AE6;
 	font-size: 3rem;
+	font-family: arial;
 }
 .phrase {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'PT Sans Caption', sans-serif;
 	color: #1A4E81;
 	font-size: 1rem;
 	font-weight: bold;
