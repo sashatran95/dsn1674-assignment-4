@@ -48,6 +48,7 @@ blockquote {
 nav{
 	background-color: #1A4E81;
 	text-align: center;
+	padding: 1rem 2rem;
 
 }
 
@@ -123,11 +124,12 @@ li {
 
 figure {
 	text-align: center;
-	border: 2px solid #eee;
+	border: 2px solid #B2CCFF;
 	border-style: solid;
-	border-radius: 10px;
 	padding: 1em;
 	margin: 1em;
+    padding-bottom: 3rem;
+    border-radius:7px;
 
 }
 
