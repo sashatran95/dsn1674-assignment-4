@@ -1,5 +1,5 @@
 html {
-	background-color: #DBEEFF;
+	background-color: #9EAECC;
 }
 
 h1 {
@@ -104,6 +104,9 @@ ol, dl {
 	font-size: 0.9rem;
 	font-weight: lighter;
 }
+ol {
+	color: #2E8AE6;
+}
 
 dt {
 	list-style-type: lower-roman;
@@ -128,11 +131,20 @@ figure {
 	border-style: solid;
 	padding: 1em;
 	margin: 1em;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     border-radius:7px;
-
+}
+blockquote footer {
+	background-color: #9EAECC;
 }
 
+img{
+  width: 95%;
+  display: block;
+  margin: 0 auto;
+}
 figurecaption {
 	font-style: italic;
 	font-family: arial;
