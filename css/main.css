@@ -48,7 +48,7 @@ blockquote {
 nav{
 	background-color: #1A4E81;
 	text-align: center;
-	padding: 1rem 2rem;
+	padding: 1rem 1rem;
 
 }
 
@@ -59,7 +59,7 @@ nav ul{
 }
 
 nav li{
-	display: inline-block;
+	display: inline;
 }
 
 nav a{	/*texts in nav a*/
@@ -158,6 +158,9 @@ ul2 {
 	font-family: arial;
 	font-size: 0.9rem;
 
+}
+.terrestrialp {
+	text-align: justify;
 }
 .indeedfoot {
 	padding-left: 2;
