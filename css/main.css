@@ -186,9 +186,10 @@ ul2 {
 	font-style: italic;
 }
 a {
-	color: #B2CCFF;
+	color: #58A1EB;
+
 }
 
 a:hover {
-	color: #2E8AE6;
+	color: #B2CCFF;
 }
