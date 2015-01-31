@@ -7,7 +7,7 @@ h1 {
 	font-size: 3rem;
 	font-style: normal;
 	text-align: center;
-	text-decoration: underline;
+	text-decoration: none;
 	font-family: 'PT Sans Caption', sans-serif;
 	color: white;
 	/*Boxes*/
@@ -41,12 +41,47 @@ p {
 }
 
 blockquote {
-	font-size: 1.5rem;
+	font-size: 1rem;
+
+}/*boxes*/
+
+nav{
+	background-color: #1A4E81;
+	text-align: center;
 
 }
 
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li{
+	display: inline-block;
+}
+
+nav a{	/*texts in nav a*/
+	display: inline-block;
+	padding: 0.5rem 0.75rem;
+	background-color: #C0DCF8;
+	color: #eee;
+	text-decoration: none;
+	border-radius: 1px;
+	width: 5em;
+}/*boxes*/
+
 footer {
 	font-size: 1rem;
+	/*Boxes*/
+	background-color: #1A4E81;
+	padding: 1em 2em 0.5em 3em; /* rem for indenting and em for padding sizes*/
+	margin: 0;
+	padding: 0.5rem;
+}
+footer h2 {
+	color: #eee;
+	text-decoration: none;
 
 }
 ul {
@@ -67,9 +102,18 @@ dt {
 	font-size: 0.9rem;
 	font-weight: bold;
 }
+dd {
+	padding: 0;
+}
 
 li {
 	font-weight: bold;
+}
+
+figure {
+	border: 3px solid #eee;
+	text-align: center;
+
 }
 
 figurecaption {
@@ -77,6 +121,7 @@ figurecaption {
 	font-family: arial;
 	font-size: 0.8rem;
 	color: #2E8AE6;
+	text-align: center;
 
 }
 ul2 {
