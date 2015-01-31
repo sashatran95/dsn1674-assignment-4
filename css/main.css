@@ -63,12 +63,16 @@ nav li{
 
 nav a{	/*texts in nav a*/
 	display: inline-block;
-	padding: 0.5rem 0.75rem;
-	background-color: #C0DCF8;
+	padding: 0.5rem 0.75rem ;
+	background-color: #2E8AE6;
 	color: #eee;
 	text-decoration: none;
-	border-radius: 1px;
-	width: 5em;
+	border-radius: 6px;
+	width: 6em;
+}
+nav a:hover{
+	color: #1A4E81;
+	
 }/*boxes*/
 
 footer {
@@ -89,6 +93,10 @@ ul {
 	padding: 0;
 }
 
+ul li {
+	color: #1A4E81;
+}
+
 ol, dl {
 	list-style-type: lower-roman;
 	font-family: arial;
@@ -102,6 +110,7 @@ dt {
 	font-size: 0.9rem;
 	font-weight: bold;
 	margin: 0;
+	color: #1A4E81;
 }
 dd {
 	padding: 0rem;
@@ -113,9 +122,8 @@ li {
 }
 
 figure {
-/*	border: 3px solid #eee;*/
 	text-align: center;
-	border: 5px;
+	border: 2px solid #eee;
 	border-style: solid;
 	border-radius: 10px;
 	padding: 1em;
@@ -164,9 +172,9 @@ ul2 {
 	font-style: italic;
 }
 a {
-	color: #2E8AE6;
+	color: #B2CCFF;
 }
 
 a:hover {
-	color: 	#B2CCFF;
+	color: #2E8AE6;
 }
